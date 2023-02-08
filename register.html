@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Bootstrap Scripts -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+    <!-- CSS Stylesheet -->
+
+    <link rel="stylesheet" href="css/register.css">
+
+    <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">Technical Events</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.php">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Login</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div class="form">
+            <form action="register.php" method="post">
+                <label class="form-label" for="firstname">First Name</label>
+                <input class="form-control" type="text" id="firstname" name="fname" required><br><br>
+                <label class="form-label" for="lastname">Last Name</label>
+                <input class="form-control" type="text" id="lastname" name="lname" required><br><br>
+                <label class="form-label" for="mobile">Contact Number</label>
+                <input class="form-control" type="tel" id="mobile" name="phone" pattern="[6-9]{1}[0-9]{9}" required><br><br>
+                <label class="form-label" for="emailid">E-mail</label>
+                <input class="form-control" type="email" id="emailid" name="email" required><br><br>
+                <label class="form-label" for="collegeName">College Name</label>
+                <input class="form-control" type="text" id="collegeName" name="collegeName" required><br><br>
+                <label class="form-label" for="collegeId">College ID</label>
+                <input class="form-control" type="text" id="collegeId" name="collegeId" required><br><br>
+                <label class="form-label" for="password">Password</label>
+                <input class="form-control" type="password" id="password" name="pass" required><br><br>
+                <div class="check-group">
+                    Gender:
+                    <label class="form-check-label gender" for="male">
+                        <input class="form-check-input" type="radio" id="male" name="gender" value="male" checked> Male
+                    </label>
+                    <label class="form-check-label gender" for="female">
+                        <input class="form-check-input" type="radio" id="female" name="gender" value="female"> Female
+                    </label>
+                    <label class="form-check-label gender" for="other">
+                        <input class="form-check-input" type="radio" id="other" name="gender" value="other"> Other
+                    </label><br><br>
+                    <label class="form-check-label" for="signup">
+                        <input class="form-check-input" type="checkbox" name="news" id="signup" checked> Get the latest updates about our events.
+                    </label><br><br>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-dark btn-reg" type="submit" name="submit">Sign Up</button>
+                    <button class="btn btn-dark btn-reset col-6 mx-auto" type="reset">Clear Form</button>
+                </div>
+            </form><br>
+            <p>Already a member? <a class="sign" href="login.php">Sign In</a></p><br><br>
+        </div>
+    </div>
+</body>
+</html>

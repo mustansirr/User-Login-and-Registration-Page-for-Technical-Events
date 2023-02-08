@@ -1,1 +1,1 @@
-# User-Login-and-Registration-Page-for-a-Technical-Event
+# User-Login-and-Registration-page-for-Technical-Events
