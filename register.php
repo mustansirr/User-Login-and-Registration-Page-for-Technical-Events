@@ -6,12 +6,14 @@ $fnameErr = $lnameErr = $emailErr = $contactErr = $zipErr = "";
 
 if (isset($_POST['submit'])) {
     $firstname = test_input($_POST["fname"]);
-    if (!preg_match("[a-zA-Z]", $firstname)) {
-        $fnameErr = "<script>alert('Only letters allowed.')</script>";
+    if (!preg_match("/^([a-zA-Z' ]+)$/", $firstname)) {
+        echo "<script>alert('Only letters allowed.')</script>";
+        return;
     }
     $lastname = test_input($_POST["lname"]);
-    if (!preg_match("[a-zA-Z]", $lastname)) {
-        $lnameErr = "<script>alert('Only letters allowed.')</script>";
+    if (!preg_match("/^([a-zA-Z' ]+)$/", $lastname)) {
+        echo "<script>alert('Only letters allowed.')</script>";
+        return;
     }
     $contact = test_input($_POST["phone"]);
     if (!preg_match("/^[6-9][0-9]{9}$/", $contact)) {
