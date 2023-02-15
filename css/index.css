@@ -36,10 +36,9 @@ body {
 /* Title */
 
 h1 {
-    font-size: 4rem;
+    font-size: 4.3rem;
     font-weight: 900;
-    margin-top: 5%;
-    width: 80%;
+    width: 85%;
 
 }
 
@@ -50,4 +49,64 @@ p {
 
 img {
     margin: 4rem 0 0;
+}
+
+.row {
+    margin-top: 2rem;
+}
+
+.right-section {
+    position: relative;
+}
+
+.icon-1 {
+    position: absolute;
+    font-size: 8rem;
+}
+
+.icon-2 {
+    position: absolute;
+    font-size: 8rem;
+    left: 15rem;
+}
+
+.icon-3 {
+    position: absolute;
+    font-size: 8rem;
+    top: 12rem;
+    left: 2rem;
+}
+
+.icon-4 {
+    position: absolute;
+    font-size: 8rem;
+    left: 12rem;
+    top: 12rem;
+}
+
+.icon-5 {
+    position: absolute;
+    font-size:8rem;
+    left: 6rem;
+    top: 22rem;
+}
+
+.icon-6 {
+    position: absolute;
+    font-size: 8rem;
+    left: 20rem;
+    top: 22rem;
+}
+
+.icon-7 {
+    position: absolute;
+    font-size: 8rem;
+    left: 24rem;
+    top: 10rem;
+}
+
+.icon-8 {
+    position: absolute;
+    font-size: 8rem;
+    left: 26rem;
 }
