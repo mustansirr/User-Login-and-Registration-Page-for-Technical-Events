@@ -36,9 +36,10 @@ body {
 /* Title */
 
 h1 {
-    font-size: 4.3rem;
+    font-size: 4.5rem;
     font-weight: 900;
-    width: 85%;
+    width: 90%;
+    margin: 10px 0 0 10px;
 
 }
 
@@ -62,51 +63,54 @@ img {
 .icon-1 {
     position: absolute;
     font-size: 8rem;
+    top: 2rem;
 }
 
 .icon-2 {
     position: absolute;
     font-size: 8rem;
-    left: 15rem;
+    left: 17rem;
+    top: 2rem;
 }
 
 .icon-3 {
     position: absolute;
     font-size: 8rem;
-    top: 12rem;
+    top: 13rem;
     left: 2rem;
 }
 
 .icon-4 {
     position: absolute;
     font-size: 8rem;
-    left: 12rem;
-    top: 12rem;
+    left: 15rem;
+    top: 14rem;
 }
 
 .icon-5 {
     position: absolute;
     font-size:8rem;
     left: 6rem;
-    top: 22rem;
+    top: 25rem;
 }
 
 .icon-6 {
     position: absolute;
     font-size: 8rem;
-    left: 20rem;
-    top: 22rem;
+    left: 22rem;
+    top: 25rem;
 }
 
 .icon-7 {
     position: absolute;
     font-size: 8rem;
-    left: 24rem;
-    top: 10rem;
+    left: 28rem;
+    top: 13rem;
 }
 
 .icon-8 {
     position: absolute;
     font-size: 8rem;
-    left: 26rem;
+    left: 30rem;
+    top: 2rem;
 }
