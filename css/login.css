@@ -13,7 +13,12 @@ body {
 .navbar-brand {
     font-family: Ubuntu;
     font-size: 2.5rem;
+    color: #3C2317;
     font-weight: 900;
+}
+
+.navbar-brand:hover {
+    color: #3C2317;
 }
 
 .navbar {
