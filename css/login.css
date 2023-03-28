@@ -1,7 +1,7 @@
 
 body {
-    background-color: #F8EAD8;
-    color: #A7727D;
+    background-color: #EEEEEE;
+    color: #3A98B9;
     font-family: Montserrat, sans-serif;
 }
 
@@ -13,12 +13,12 @@ body {
 .navbar-brand {
     font-family: Ubuntu;
     font-size: 2.5rem;
-    color: #3C2317;
+    color: #146C94;
     font-weight: 900;
 }
 
 .navbar-brand:hover {
-    color: #3C2317;
+    color: #146C94;
 }
 
 .navbar {
@@ -47,12 +47,12 @@ body {
 }
 
 .form-control {
-    border-color: #A7727D;
+    border-color: #3A98B9;
 }
 
 .reg{
     text-decoration: none;
-    color: #865c64;
+    color: #3A98B9;
 }
 
 p {
